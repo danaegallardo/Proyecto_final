@@ -1,0 +1,57 @@
+.mi-h1 {
+    color: #6CB759; /* Cambia #FF0000 al color que desees, por ejemplo, rojo (#FF0000) */
+    text-align: center;
+}
+
+
+/* Estilos del formulario y el botón */
+.login-container {
+    background-color: #85d37b;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%; /* Cambia el valor de width según tus necesidades */
+    margin: 0 auto; /* Esto centra horizontalmente el contenedor */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Esto centra los elementos horizontalmente dentro del formulario */
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-button {
+    background-color: #1e8b14;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    width: 50%;
+    margin: 10px auto; /* Esto centra horizontalmente el botón dentro del contenedor */
+    text-align: center;
+}
+
+.custom-title{
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Mayúsculas */
+    color: #333; /* Color de texto */
+}
+
+.nombreUsuarioLogueadoIndex{
+    background-color: #85d37b;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #85d37b;
+}

@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    background-color: white;
+    color: #6CB759;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #6CB759;
+    color: aliceblue;
+    text-align: center; /* Centro el contenido horizontalmente */
+    padding: 20px;
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    text-align: center; /* Centro el texto horizontalmente */
+}
+
+
+/*MENU NAVBAR*/
+/* Agregar margen derecho a los elementos del menú */
+.navbar-nav .nav-item {
+    margin-right: 50%; /* Márgenes a la derecha entre elementos del menú */
+    font-size: 120%;
+}
+.nav-item {
+    white-space: nowrap;
+}
+
+
+/*PROYECTOS REALIZADOS*/
+.custom-title {
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Mayúsculas */
+    text-align: center;
+    color: #333; /* Color de texto */
+}

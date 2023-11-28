@@ -1,0 +1,80 @@
+.mi-h1 {
+    color: #6CB759; /* Cambia #FF0000 al color que desees, por ejemplo, rojo (#FF0000) */
+    text-align: center;
+}
+
+
+/*FOOTER*/
+footer{
+    background-color: #6CB759;
+    color: aliceblue;
+    text-align: center; /* Centro el contenido horizontalmente */
+    padding: 20px;
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    text-align: center; /* Centro el texto horizontalmente */
+}
+
+/*BOTON INICIO SESION*/
+button {
+    background: none;
+    border: none;
+    padding: 0;
+
+}
+
+button img {
+    width: 50px; /* Ajusta el ancho de la imagen */
+    height: 50px; /* Ajusta la altura de la imagen */
+}
+
+
+
+
+/*MENU NAVBAR*/
+/* Agregar margen derecho a los elementos del menú */
+.navbar-nav .nav-item {
+    margin-right: 50%; /* Márgenes a la derecha entre elementos del menú */
+    font-size: 120%;
+}
+.nav-item {
+    white-space: nowrap;
+}
+
+
+
+/*mision y vision*/
+.custom-title {
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    text-transform: uppercase; /* Mayúsculas */
+    color: #333; /* Color de texto */
+}
+
+
+/*valores*/
+.rectangle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Alinea los elementos a los extremos */
+}
+
+.rectangle {
+    border: 1px solid #000;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px; /* Agrega un espacio de 20 píxeles entre los párrafos */
+}
+
+/* Agrega espacios entre contenedores utilizando clases de Bootstrap */
+.row {
+    margin-bottom: 20px; /* Agrega un espacio de 20 píxeles entre las filas */
+}
+

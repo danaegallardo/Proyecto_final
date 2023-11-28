@@ -1,0 +1,69 @@
+.mi-h1 {
+    color: #6CB759; /* Cambia #FF0000 al color que desees, por ejemplo, rojo (#FF0000) */
+    text-align: center;
+}
+
+
+
+
+.map-container {
+text-align: center;
+}
+
+
+
+/*FOOTER*/
+footer{
+    background-color: #6CB759;
+    color: aliceblue;
+    text-align: center; /* Centro el contenido horizontalmente */
+    padding: 20px;
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    text-align: center; /* Centro el texto horizontalmente */
+}
+
+
+/*BOTON INICIO SESION*/
+button {
+    background: none;
+    border: none;
+    padding: 0;
+
+}
+
+button img {
+    width: 50px; /* Ajusta el ancho de la imagen */
+    height: 50px; /* Ajusta la altura de la imagen */
+}
+
+
+/*MENU NAVBAR*/
+/* Agregar margen derecho a los elementos del menú */
+.navbar-nav .nav-item {
+    margin-right: 50%; /* Márgenes a la derecha entre elementos del menú */
+    font-size: 120%;
+}
+.nav-item {
+    white-space: nowrap;
+}
+
+/* Estilos para el contenedor del párrafo */
+.row {
+    margin-top: 20px; /* Ajusta el margen superior para moverlo hacia abajo */
+    margin-right: 20px; /* Ajusta el margen derecho para moverlo hacia la derecha */
+}
+
+/* Estilos para el título de la empresa */
+.col-6 p:first-child {
+    font-size: 24px; /* Cambia el tamaño de fuente */
+    font-weight: bold; /* Hace que el texto esté en negrita */
+}
+
+/* Estilos para el subtítulo */
+.col-6 p:last-child {
+    font-style: italic; /* Hace que el texto esté en cursiva */
+}
